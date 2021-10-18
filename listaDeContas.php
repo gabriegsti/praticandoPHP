@@ -64,7 +64,7 @@ function depositar(float $valor, $conta){
   }
 }
 
-//Por pdrão o php faz apenas passagem por valor.
+//Por padrão o php faz apenas passagem por valor.
 $contasCorrentes['424.367.310-12'] = depositar(3000.0,$contasCorrentes['424.367.310-12']);
 
 verSaldo($contasCorrentes['424.367.310-12']);
